@@ -44,3 +44,8 @@ $('#btnLogout').click(() => {
     })
 })
 getUserInfo()
+
+// 切换高亮
+function change(){
+    $('#change').addClass('layui-this').next().removeClass('layui-this')
+}
